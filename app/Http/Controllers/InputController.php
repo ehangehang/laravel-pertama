@@ -23,7 +23,7 @@ class InputController extends Controller
      */
     public function create()
     {
-        //
+        return view('inputs.create');
     }
 
     /**

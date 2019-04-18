@@ -17,7 +17,7 @@ class CreateBukusTable extends Migration
             $table->bigIncrements('id');
             $table->string('judul',100);
             $table->string('penerbit',100);
-            $table->string('tahun_terbit',100);
+            $table->integer('tahun_terbit',100);
             $table->string('pengarang',100);
             $table->timestamps();
         });
