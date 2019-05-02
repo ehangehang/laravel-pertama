@@ -8,7 +8,7 @@
 </style>
 <div class="card uper">
   <div class="card-header">
-    Add Share
+    Form Input
   </div>
   <div class="card-body">
     @if ($errors->any())
@@ -36,7 +36,7 @@
           </div>
           <div class="form-group">
               <label for="pengarang">Pengarang :</label>
-              <label type="text" class="form-control" name="pengarang">Pengarang :</label>
+              <input type="text" class="form-control" name="pengarang"/>
           </div>
           <button type="submit" class="btn btn-primary">Add</button>
       </form>
